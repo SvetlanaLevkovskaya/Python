@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93ef49d7-d603-4a80-8a77-86ded6ee200c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/.idea/Python_Automation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/DDT_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/DDT_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/DDT_excel1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Links.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Package1/TC_LoginTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Package1/TC_SignUpTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Package1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Package2/TC_PaymentReturnTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Package2/TC_PaymentTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Package2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Pytest_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Pytest_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/Pytest_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/TestSuits/All_TestSuites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/TestSuits/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/UnitTest_Framework_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/basic_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/conditional_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/conditional_commands_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/double_click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/download_chrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/download_firefox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/drag_and_drop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/dropdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/explicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/explicit_wait_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/implicit_Wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/input_boxes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/mouse_actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/myPack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/myPack/test_Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/myPack/test_SignUp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/navigation_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/radiobutton_checkbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/reading_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/right_click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/screenshots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/scrolling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/test_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/test_logging1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/upload_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/web_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/windows_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python_Automation/writing_data_into_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_for_while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_files_exeption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Class_Object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod_def.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23dnAUsWVA5lyEsvAbeUY0NNYCC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+  </component>
+  <component name="RunManager" selected="Python.00">
+    <configuration name="00" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Python\pythonProject\tutorial\07_strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OOP_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OOP_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP_04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_duplicates_spaces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remove_duplicates_spaces.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/square.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.00" />
+        <item itemvalue="Python.OOP_02" />
+        <item itemvalue="Python.square" />
+        <item itemvalue="Python.remove_duplicates_spaces" />
+        <item itemvalue="Python.OOP_04" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93ef49d7-d603-4a80-8a77-86ded6ee200c" name="Changes" comment="" />
+      <created>1642072687845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642072687845</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
