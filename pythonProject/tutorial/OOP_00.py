@@ -21,5 +21,3 @@ class Dog:
 # #d.bark()
 # #print(d.add_one(5))
 # print(type(d))
-
-

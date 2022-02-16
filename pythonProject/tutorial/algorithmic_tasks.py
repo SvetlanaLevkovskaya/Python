@@ -12,5 +12,3 @@ if k == 2:
 else:
     print("It is not a simple number")
     print(delit)  # выводим все делители
-
-

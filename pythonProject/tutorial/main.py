@@ -98,6 +98,3 @@ print(max(x, y, z))
 print(min(x, y, z))
 
 # slicing   - indexing[] and slice() [start, stop, step]
-
-
-

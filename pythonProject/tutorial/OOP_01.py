@@ -28,7 +28,6 @@ class Course:
         return value / len(self.students)
 
 
-
 s1 = Student("Tim", 19, 95)
 s2 = Student("Bill", 19, 75)
 s3 = Student("Jill", 19, 65)

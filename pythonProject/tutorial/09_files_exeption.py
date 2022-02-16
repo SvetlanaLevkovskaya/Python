@@ -26,10 +26,3 @@ try:
     print(a / b)
 except ZeroDivisionError:
     print("It is not correct")
-
-
-
-
-
-
-

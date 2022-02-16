@@ -26,4 +26,3 @@ print(status1)
 driver.find_element(By.ID, 'RESULT_TextField-1').send_keys('pavan')
 driver.find_element(By.ID, 'RESULT_TextField-2').send_keys('kumar')
 driver.find_element(By.ID, 'RESULT_TextField-3').send_keys('3333333333333')
-

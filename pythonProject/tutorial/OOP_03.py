@@ -35,5 +35,3 @@ print(Person.number_of_people_())
 # print(Person.number_of_people)
 # p2 = Person('jill')
 # print(Person.number_of_people)
-
-

@@ -16,4 +16,3 @@ print(driver.current_url)
 print(driver.current_window_handle)
 print(driver.page_source)
 driver.close()
-

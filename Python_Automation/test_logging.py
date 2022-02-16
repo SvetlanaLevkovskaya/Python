@@ -12,4 +12,3 @@ logging.info('This info message should go to the log file')
 logging.error('This error message should go to the log file')
 logging.warning('This warning message should go to the log file')
 logging.critical('This critical message should go to the log file')
-

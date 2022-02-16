@@ -17,4 +17,3 @@ print(driver.title)
 element = driver.find_element(By.XPATH, '//*[@id="HTML10"]/div[1]/button')
 actions = ActionChains(driver)
 actions.double_click(element).perform()
-

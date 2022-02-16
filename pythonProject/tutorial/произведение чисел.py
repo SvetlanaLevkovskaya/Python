@@ -38,6 +38,3 @@ for i in range(1, 101):
         if i < min:
             min = i
 print(min)
-
-
-

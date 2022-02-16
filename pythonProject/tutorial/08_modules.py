@@ -6,4 +6,3 @@
 import mod_def as m
 
 m.hello()
-

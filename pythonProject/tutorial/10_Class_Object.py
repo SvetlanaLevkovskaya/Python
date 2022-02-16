@@ -33,9 +33,6 @@ class ProspectHouse(House):
         super().__init__(self, number)
         self.prospect = prospect
 
+
 PrHouse = ProspectHouse('Lenina', 5)
 print(PrHouse.prospect)
-
-
-
-

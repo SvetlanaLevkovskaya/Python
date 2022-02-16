@@ -52,6 +52,3 @@ print(a[-1])
 print(a.upper())
 print(a.lower())
 print(a.capitalize())
-
-
-

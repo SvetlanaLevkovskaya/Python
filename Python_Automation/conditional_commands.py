@@ -29,5 +29,3 @@ user_pass.send_keys('12345678')
 time.sleep(2)
 
 singIn = driver.find_element(By.XPATH, '//*[@id="Login"]/button').click()
-
-

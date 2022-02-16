@@ -29,8 +29,6 @@ print(driver.title)
 # driver.find_element(By.ID,'pdf-link-to-download').click() # download link
 
 
-
-
 # download text file
 driver.find_element(By.ID, 'textbox').send_keys('testing download text file')
 driver.find_element(By.ID, 'createTxt').click() # generate file button
@@ -40,7 +38,6 @@ driver.find_element(By.ID,'link-to-download').click() # download link
 driver.find_element(By.ID,'pdfbox').send_keys('testing pdf')
 driver.find_element(By.ID, 'createPdf').click() # generate file button
 driver.find_element(By.ID,'pdf-link-to-download').click() # download link
-
 
 
 time.sleep(2)

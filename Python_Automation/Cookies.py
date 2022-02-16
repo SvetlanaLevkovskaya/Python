@@ -37,6 +37,3 @@ print(cookies)
 
 # Count number of cookies
 # Read Cookies pairs
-
-
-

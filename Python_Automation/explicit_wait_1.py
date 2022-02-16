@@ -40,9 +40,11 @@ time.sleep(2)
 
 wait = WebDriverWait(driver,10)
 driver.find_element(By.XPATH, '//*[@id="__next"]/div/main/section/div/aside/div/div/section[2]/div/button').click()
-# wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div/main/section/div/aside/div/div/section[2]/div/div[3]/label[7]/span'))).click()
+# wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]
+# /div/main/section/div/aside/div/div/section[2]/div/div[3]/label[7]/span'))).click()
 
-wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div/main/section/div/aside/div/div/section[2]/div/div[2]/input'))).send_keys('BOSS')
+wait.until(EC.element_to_be_clickable((By.XPATH, \
+            '//*[@id="__next"]/div/main/section/div/aside/div/div/section[2]/div/div[2]/input'))).send_keys('BOSS')
 
-wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div/main/section/div/aside/div/div/section[2]/div/div[3]/label/span'))).click()
-
+wait.until(EC.element_to_be_clickable((By.XPATH, \
+                '//*[@id="__next"]/div/main/section/div/aside/div/div/section[2]/div/div[3]/label/span'))).click()

@@ -30,6 +30,7 @@ class Dog(Pet):
 class Fish(Pet):
     pass
 
+
 p = Pet("Tim", 19)
 p.show()
 p.speak()
@@ -41,9 +42,3 @@ d.show()
 d.speak()
 f = Fish("Bubbles", 10)
 f.speak()
-
-
-
-
-
-

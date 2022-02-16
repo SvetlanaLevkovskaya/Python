@@ -29,9 +29,4 @@ driver.find_element(By.XPATH, '//*[@id="q15"]/table/tbody/tr[1]/td/label').click
 # Select monday
 driver.find_element(By.XPATH, '//*[@id="q15"]/table/tbody/tr[2]/td/label').click()
 
-
-
-
-
-
 # Click

@@ -24,5 +24,3 @@ while sum > 0:
     sum //= 10
 
 print(sum1)
-
-
