@@ -108,86 +108,86 @@ print('currency_convertor = ', currency_convertor)
 #                     Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)
 #                     31.6 Сделать elif с остальными валютами
 # …                   31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
-# if currency_convertor:
-#     currency_usd = 'usd_item'
-#     target_currency = 'eur_item'
-#     target_currency_1 = 'uah_item'
-#     target_currency_2 = 'chf_item'
-#     target_currency_3 = 'rub_item'
-#     target_currency_4 = 'byn_item'
-#     target_currency_amount = 50
-#     if target_currency:
-#         currency_result = round((target_currency_amount / usd_eur_rate), 2)
-#         print(target_currency_amount, eur_item, '=', currency_result, usd_item)
-#     if target_currency_1:
-#         currency_result = round((target_currency_amount / usd_uah_rate), 2)
-#         print(target_currency_amount, uah_item, '=', currency_result, usd_item)
-#     if target_currency_2:
-#         currency_result = round((target_currency_amount / usd_chf_rate), 2)
-#         print(target_currency_amount, chf_item, '=', currency_result, usd_item)
-#     if target_currency_3:
-#         currency_result = round((target_currency_amount / usd_rub_rate), 2)
-#         print(target_currency_amount, rub_item, '=', currency_result, usd_item)
-#     if target_currency_4:
-#         currency_result = round((target_currency_amount / usd_byn_rate), 2)
-#         print(target_currency_amount, byn_item, '=', currency_result, usd_item)
-#     else:
-#         print('Unknown currency')
-# else:
-#     print('Переменная currency_convertor = ', item_3)
+if currency_convertor:
+    currency_usd = 'usd_item'
+    target_currency = 'eur_item'
+    target_currency_1 = 'uah_item'
+    target_currency_2 = 'chf_item'
+    target_currency_3 = 'rub_item'
+    target_currency_4 = 'byn_item'
+    target_currency_amount = 50
+    if target_currency:
+        currency_result = round((target_currency_amount / usd_eur_rate), 2)
+        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+    if target_currency_1:
+        currency_result = round((target_currency_amount / usd_uah_rate), 2)
+        print(target_currency_amount, uah_item, '=', currency_result, usd_item)
+    if target_currency_2:
+        currency_result = round((target_currency_amount / usd_chf_rate), 2)
+        print(target_currency_amount, chf_item, '=', currency_result, usd_item)
+    if target_currency_3:
+        currency_result = round((target_currency_amount / usd_rub_rate), 2)
+        print(target_currency_amount, rub_item, '=', currency_result, usd_item)
+    if target_currency_4:
+        currency_result = round((target_currency_amount / usd_byn_rate), 2)
+        print(target_currency_amount, byn_item, '=', currency_result, usd_item)
+    else:
+        print('Unknown currency')
+else:
+    print('Переменная currency_convertor = ', item_3)
 
-# if currency_convertor:
-#     currency_usd = 'usd_item'
-#     target_currency = ['eur_item', 'uah_item', 'uah_item', 'uah_item', 'byn_item']
-#     target_currency_amount = 50
-#     if target_currency[0]:
-#         currency_result = round((target_currency_amount / usd_eur_rate), 2)
-#         print(target_currency_amount, eur_item, '=', currency_result, usd_item)
-#     if target_currency[1]:
-#         currency_result = round((target_currency_amount / usd_uah_rate), 2)
-#         print(target_currency_amount, uah_item, '=', currency_result, usd_item)
-#     if target_currency[2]:
-#         currency_result = round((target_currency_amount / usd_chf_rate), 2)
-#         print(target_currency_amount, chf_item, '=', currency_result, usd_item)
-#     if target_currency[3]:
-#         currency_result = round((target_currency_amount / usd_rub_rate), 2)
-#         print(target_currency_amount, rub_item, '=', currency_result, usd_item)
-#     if target_currency[4]:
-#         currency_result = round((target_currency_amount / usd_byn_rate), 2)
-#         print(target_currency_amount, byn_item, '=', currency_result, usd_item)
-#     else:
-#         print('Unknown currency')
-# else:
-#     print('Переменная currency_convertor = ', item_3)
+if currency_convertor:
+    currency_usd = 'usd_item'
+    target_currency = ['eur_item', 'uah_item', 'uah_item', 'uah_item', 'byn_item']
+    target_currency_amount = 50
+    if target_currency[0]:
+        currency_result = round((target_currency_amount / usd_eur_rate), 2)
+        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+    if target_currency[1]:
+        currency_result = round((target_currency_amount / usd_uah_rate), 2)
+        print(target_currency_amount, uah_item, '=', currency_result, usd_item)
+    if target_currency[2]:
+        currency_result = round((target_currency_amount / usd_chf_rate), 2)
+        print(target_currency_amount, chf_item, '=', currency_result, usd_item)
+    if target_currency[3]:
+        currency_result = round((target_currency_amount / usd_rub_rate), 2)
+        print(target_currency_amount, rub_item, '=', currency_result, usd_item)
+    if target_currency[4]:
+        currency_result = round((target_currency_amount / usd_byn_rate), 2)
+        print(target_currency_amount, byn_item, '=', currency_result, usd_item)
+    else:
+        print('Unknown currency')
+else:
+    print('Переменная currency_convertor = ', item_3)
 
 
-# if currency_convertor:
-#     currency_usd = 'usd_item'
-#     target_currency = ('eur_item', 'uah_item', 'chf_item', 'rub_item', 'byn_item')
-#     target_currency_amount = 50
-#     if eur_item:
-#         currency_result = round((target_currency_amount / usd_eur_rate), 2)
-#         print(target_currency_amount, eur_item, '=', currency_result, usd_item)
-#     if uah_item:
-#         currency_result = round((target_currency_amount / usd_uah_rate), 2)
-#         print(target_currency_amount, uah_item, '=', currency_result, usd_item)
-#     if chf_item:
-#         currency_result = round((target_currency_amount / usd_chf_rate), 2)
-#         print(target_currency_amount, chf_item, '=', currency_result, usd_item)
-#     if rub_item:
-#         currency_result = round((target_currency_amount / usd_rub_rate), 2)
-#         print(target_currency_amount, rub_item, '=', currency_result, usd_item)
-#     if byn_item:
-#         currency_result = round((target_currency_amount / usd_byn_rate), 2)
-#         print(target_currency_amount, byn_item, '=', currency_result, usd_item)
-#     else:
-#         print('Unknown currency')
-# else:
-#     print('Переменная currency_convertor = ', item_3)
+if currency_convertor:
+    currency_usd = 'usd_item'
+    target_currency = ('eur_item', 'uah_item', 'chf_item', 'rub_item', 'byn_item')
+    target_currency_amount = 50
+    if eur_item:
+        currency_result = round((target_currency_amount / usd_eur_rate), 2)
+        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+    if uah_item:
+        currency_result = round((target_currency_amount / usd_uah_rate), 2)
+        print(target_currency_amount, uah_item, '=', currency_result, usd_item)
+    if chf_item:
+        currency_result = round((target_currency_amount / usd_chf_rate), 2)
+        print(target_currency_amount, chf_item, '=', currency_result, usd_item)
+    if rub_item:
+        currency_result = round((target_currency_amount / usd_rub_rate), 2)
+        print(target_currency_amount, rub_item, '=', currency_result, usd_item)
+    if byn_item:
+        currency_result = round((target_currency_amount / usd_byn_rate), 2)
+        print(target_currency_amount, byn_item, '=', currency_result, usd_item)
+    else:
+        print('Unknown currency')
+else:
+    print('Переменная currency_convertor = ', item_3)
 
 
 a = input('Введите валюту: ')
-#currency_convertor = item_2
+# currency_convertor = item_2
 # print('currency_convertor = ', currency_convertor)
 if currency_convertor:
     currency_usd = 'usd_item'
@@ -212,4 +212,3 @@ if currency_convertor:
         print('Unknown currency')
 else:
      print('Переменная currency_convertor = ', item_3)
-

@@ -13,5 +13,5 @@ print(driver.current_url)
 btn = driver.find_element(By.XPATH, '//*[@id="Tabbed"]/a/button').click()
 time.sleep(5)
 
-#driver.close() # currently focused browser
-driver.quit() # closes all browsers
+# driver.close()            #currently focused browser
+driver.quit()              # closes all browsers

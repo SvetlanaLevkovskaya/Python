@@ -10,9 +10,9 @@ import datetime
 
 
 '''Создать пустой empty.csv файл.'''
-# file = 'empty.csv'
-# with open(file, 'w', newline='') as f:
-#     writer = csv.writer(f)
+file = 'empty.csv'
+with open(file, 'w', newline='') as f:
+    writer = csv.writer(f)
 
 
 '''Вариант 1. Создать digits.csv файл с 1-м полем, в котором будут 150 строк с числами от 0 до 150'''
@@ -175,21 +175,17 @@ def update_nne(file_name):
             writer.writerow(ff[k])
 
 
-
-
 update_nne(file_name='HW_6_nne_2.csv')
 
 
-
-'''
-Создать файл combo.csv с полями Name, Emaill, Date. 1000 строк.
+'''Создать файл combo.csv с полями Name, Emaill, Date. 1000 строк.
 a) Соберите имена из файла nne_2.csv.
 b) недостающие 550 строк имён сгенерируйте.
 с) Имена расположите в алфавитном порядке.
 d) Для имён из файла nne_2.csv забрать даты из nne_2.csv которые были с этими именами в nne_2.csv.
 e) Остальные даты генерировать рандомно.
-f) Добавить и заполнить (можно рандомно) столбы Email, Phone, Gender, Salary.
-'''
+f) Добавить и заполнить (можно рандомно) столбы Email, Phone, Gender, Salary.'''
+
 names_lll = []
 for i in range(1000):
     names_lll.append([names.get_first_name()])

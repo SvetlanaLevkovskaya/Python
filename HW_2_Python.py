@@ -163,8 +163,8 @@ print('b_item_relult_multi  =', b_item_relult_multi)
 
 #  56. Создать переменную b_item_relult_division и присвоить деление b_item_t и b_item_f
 #  57. Вывести b_item_relult_division в консоль. (Получить ошибку)
-# b_item_relult_division  = b_item_t / b_item_f
-# print('b_item_relult_division  =', b_item_relult_division)
+b_item_relult_division  = b_item_t / b_item_f
+print('b_item_relult_division  =', b_item_relult_division)
 
 #  58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
 #  59. Вывести b_item_1_int в консоль.
@@ -179,29 +179,29 @@ print('b_item_2_int  =', b_item_2_int, type(b_item_2_int))
 # 7) Сделать скрипт используя функцию input().
 #     1. Функция должна на вход принимать целое число.
 #     2. Выводить должна "Вы вели число = (введённое число) которое (меньше/больше/равно) 30"
-# digit = input()
-# int_digit = int(digit)
-# if int_digit == 30:
-#     print('Вы вели число = ', int_digit, 'которое равно 30')
-# elif int_digit > 30:
-#     print('Вы вели число = ', int_digit, 'которое больше 30')
-# else:
-#     print('Вы вели число = ', int_digit, 'которое меньше 30')
+digit = input()
+int_digit = int(digit)
+if int_digit == 30:
+    print('Вы вели число = ', int_digit, 'которое равно 30')
+elif int_digit > 30:
+    print('Вы вели число = ', int_digit, 'которое больше 30')
+else:
+    print('Вы вели число = ', int_digit, 'которое меньше 30')
 
 # 8) Сделать скрипт используя функцию input().
 #     1. Функция должна на вход принимать целое число.
 #     2. Внутри функции должно сгенерироваться рандомное целое число (import random)...(random.randint(1, 100))
 #     3. Выводить должна "Вы вели число = (введённое число) которое (меньше/больше/равно) сгенерированному числу"
 
-# num = int(input('Введи число: '))
-# i = random.randint(1, 100)
-# print(i, type(i))
-# if num < i:
-#     print('Вы вели число = ', num, 'которое меньше сгенерированному числу')
-# elif num > i:
-#     print('Вы вели число = ', num, 'которое больше сгенерированному числу')
-# else:
-#     print('Вы вели число = ', num, 'которое равно сгенерированному числу')
+num = int(input('Введи число: '))
+i = random.randint(1, 100)
+print(i, type(i))
+if num < i:
+    print('Вы вели число = ', num, 'которое меньше сгенерированному числу')
+elif num > i:
+    print('Вы вели число = ', num, 'которое больше сгенерированному числу')
+else:
+    print('Вы вели число = ', num, 'которое равно сгенерированному числу')
 
 # 9) Сделать скрипт используя функцию input().
 # 1. Функция должна на вход принимать целое число.

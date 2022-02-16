@@ -35,4 +35,5 @@ for r in range(2, rows+1):
 
     driver.back()
 
-    # driver.find_element(By.XPATH, '/html/body/div[2]/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]').click()
+    # driver.find_element(By.XPATH,
+    # '/html/body/div[2]/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]').click()
