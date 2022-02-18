@@ -1,6 +1,5 @@
 def find_short(s):
-    # l = min(s.split(" "), key=len)
-    return len(min(s.split(" "), key=len)) # l: shortest word length
+    return len(min(s.split(" "), key=len))
 
 
 print(find_short("bitcoin take over the world maybe who knows perhaps"))
