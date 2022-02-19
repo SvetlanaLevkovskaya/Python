@@ -34,4 +34,3 @@ def printer_error(s):
 
 
 print(printer_error("kkkwwwaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyzuuuuu"))
-

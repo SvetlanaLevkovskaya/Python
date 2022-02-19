@@ -17,6 +17,3 @@ def DNA_strand(dna):
 
 
 print(DNA_strand("AAAA"))
-
-
-

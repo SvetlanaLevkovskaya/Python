@@ -35,4 +35,3 @@ def high(x):
 
 
 print(high("The sunset sets at twelve o' clock."))
-
