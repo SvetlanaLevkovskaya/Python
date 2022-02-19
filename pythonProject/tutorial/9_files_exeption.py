@@ -7,7 +7,7 @@
 
 
 # f = open("1.txt", "w")
-# f.write("Hello fole!!!")
+# f.write("Hello file!!!")
 # f = open("1.txt", "r")
 # print(f.read())
 # f.close()
