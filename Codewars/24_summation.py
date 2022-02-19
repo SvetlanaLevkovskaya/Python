@@ -5,3 +5,10 @@ def summation(num):
 
 print(summation(8))
 print(summation(99))
+
+
+def summation(num):
+    return sum(range(num + 1))
+
+print(summation(8))
+print(summation(99))

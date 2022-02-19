@@ -22,10 +22,19 @@ def century(year):
     return math.ceil(year / 100)
 
 
-# print "math.floor(-23.11) : ", math.floor(-23.11)     # 24
-# print "math.floor(300.16) : ", math.floor(300.16)     # 300
-# print "math.floor(300.72) : ", math.floor(300.72)     # 300
-#
-# print "math.ceil(-23.11) : ", math.ceil(-23.11)       # 23
-# print "math.ceil(300.16) : ", math.ceil(300.16)       # 301
-# print "math.ceil(300.72) : ", math.ceil(300.72)       # 301
+print("math.floor(-23.11) : ", math.floor(-23.11))     # -24
+print("math.floor(300.16) : ", math.floor(300.16))     # 300
+print("math.floor(300.72) : ", math.floor(300.72))    # 300
+
+print("math.ceil(-23.11) : ", math.ceil(-23.11))       # -23
+print("math.ceil(300.16) : ", math.ceil(300.16))       # 301
+print("math.ceil(300.72) : ", math.ceil(300.72))      # 301
+
+print("round(-23.11) : ", round(-23.11))       # -23
+print("round(300.16) : ", round(300.16))      # 300
+print("round(300.72) : ", round(300.72))      # 301
+
+print("math.floor(-23.11) : ", math.floor(-23.11))      # -24
+print("math.floor(300.16) : ", math.floor(300.16))      # 300
+print("math.floor(300.72) : ", math.floor(300.72))      # 300
+print("math.floor(1.5) : ", math.floor(1.5))            # 1
