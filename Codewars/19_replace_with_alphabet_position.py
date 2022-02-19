@@ -1,4 +1,10 @@
+import string
 from string import ascii_lowercase
+print(ascii_lowercase)
+print(string.digits)
+print(string.printable)
+print(string.hexdigits)
+
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
 
@@ -24,5 +30,6 @@ def alphabet_position(s):
 
 
 print(alphabet_position("The sunset sets at twelve o' clock."))
+
 
 print(dir(str))
