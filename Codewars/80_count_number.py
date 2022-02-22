@@ -7,3 +7,10 @@ def monkey_count(n):
 
 
 print(monkey_count(10))
+
+
+def monkey_count(n):
+    return [i+1 for i in range(n)]
+
+
+print(monkey_count(10))
