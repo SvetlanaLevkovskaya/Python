@@ -10,3 +10,11 @@ def two_sort(array):
 
 print(two_sort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]))
 print(two_sort(["i", "want", "to", "travel", "the", "world", "writing", "code", "one", "day"]))
+
+
+def two_sort(lst):
+    return '***'.join(min(lst))
+
+
+print(two_sort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]))
+print(two_sort(["i", "want", "to", "travel", "the", "world", "writing", "code", "one", "day"]))
