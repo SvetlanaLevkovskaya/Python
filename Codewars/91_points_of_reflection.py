@@ -9,11 +9,11 @@ def symmetric_point(p, q):
     return [p1x, p1y]
 
 
-print(symmetric_point([0, 0], [1, 1]))
+print(symmetric_point([2, 6], [-2, -6]))
 
 
 def symmetric_point(p, q):
     return [2*q[0] - p[0], 2*q[1] - p[1]]
 
 
-print(symmetric_point([0, 0], [1, 1]))
+print(symmetric_point([2, 6], [-2, -6]))
