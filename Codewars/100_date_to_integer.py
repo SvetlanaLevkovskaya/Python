@@ -17,3 +17,4 @@ b = datetime.date.today()
 x = date(2022, 1, 21)
 print(type(x))
 print(datetime.timedelta())
+
