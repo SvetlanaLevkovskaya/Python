@@ -12,3 +12,10 @@ def is_vow(s):
 
 
 print(is_vow([118,117,120,121,117,98,122,97,120,106,104,116,113,114,113,120,106]))
+
+
+def feast(beast, dish):
+    # your code here
+    return beast.startswith(dish) and beast.endswith(dish)
+
+print(feast("chickadee", "chocolate cake"))

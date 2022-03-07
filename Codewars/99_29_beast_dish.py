@@ -5,8 +5,9 @@ def feast(beast, dish):
 print(feast("brown bear", "bear claw"))
 
 
-def feast(beast, dish):
-    return beast.startswith(dish[0]) and beast.endswith(dish[-1])
+def name_shuffler(str_):
+    s = str_.split()
+    return ''.join('{} {}'.format(s[1], s[0]))
 
 
-print(feast("brown bear", "bear claw"))
+print(name_shuffler('john McClane'))
