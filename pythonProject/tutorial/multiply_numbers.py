@@ -30,11 +30,11 @@ for i in range(1, 101):
     if i % 2 == 0 and i % 3 == 0:
         if i > max:
             max = i
-print(max)
+print('max = ', max)
 
 min = 100
 for i in range(1, 101):
     if i % 2 == 0 and i % 3 == 0:
         if i < min:
             min = i
-print(min)
+print('min = ', min)
