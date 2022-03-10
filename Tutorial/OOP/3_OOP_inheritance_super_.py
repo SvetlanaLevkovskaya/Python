@@ -26,7 +26,7 @@ class Item:
 
     @classmethod
     def instantiate_from_csv(cls):
-        with open('items.csv', 'r') as f:
+        with open('../tutorial/OOP/items.csv', 'r') as f:
             reader = csv.DictReader(f)
             items = list(reader)
 
@@ -48,23 +48,26 @@ class Item:
         return False
 
     def __repr__(self):
-        return f'Item("{self.name}", {self.price}, {self.quantity})'
-
-
-Item.instantiate_from_csv()
-print(Item.all)
-
-print(Item.is_integer(7.0))
+        return f'{self.__class__.__name__}("{self.name}", {self.price}, {self.quantity})'
 
 
 class Phone(Item):
-    pass
 
-phone1 = Item("jscPhonev10", 500, 5)
-phone1.broken_phones = 1
-phone2 = Item("jscPhonev20", 700, 5)
-phone2.broken_phones = 1
+    def __init__(self, name: str, price: float, quantity=0, broken_phones=0):
+        # Call to super function to han=ve access to all attributes / methods
+        super().__init__(
+            name, price, quantity
+        )
+        # Run validations to the received arguments
+        assert broken_phones >= 0, f'Broken_phones {broken_phones} is not greater or equal to zero!'
+
+        # Assign to self object
+        self.broken_phones = broken_phones
 
 
+phone1 = Phone("jscPhonev10", 500, 5, 1)
+print(phone1.calculate_total_price())
+phone2 = Phone("jscPhonev20", 700, 5, 1)
 
-
+print(Item.all)
+print(Phone.all)
