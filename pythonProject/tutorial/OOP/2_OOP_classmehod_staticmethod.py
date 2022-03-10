@@ -1,5 +1,6 @@
 import csv
 
+
 class Item:
     pay_rate = 0.8 # The pay rate after 20% discount # Class attribute
     all = []
@@ -13,7 +14,6 @@ class Item:
         self.name = name
         self.price = price
         self.quantity = quantity
-        print(f"An instance created: {name}")
 
         # Actions to execute
         Item.all.append(self)
@@ -32,15 +32,39 @@ class Item:
 
         for item in items:
             Item(
-                name = item.get('name'),
-
+                name=item.get('name'),
+                price=float(item.get('price')),
+                quantity=int(item.get('quantity')),
             )
+
+    @staticmethod
+    def is_integer(num):
+        # We will count out the floats that are point zero
+        # for i.e.: 5.0, 10.0
+        if isinstance(num, float):
+            return num.is_integer()
+        elif isinstance(num, int):
+            return True
+        return False
 
     def __repr__(self):
         return f'Item("{self.name}", {self.price}, {self.quantity})'
 
 
 Item.instantiate_from_csv()
+print(Item.all)
+
+print(Item.is_integer(7.0))
+
+
+class Phone(Item):
+    pass
+
+phone1 = Item("jscPhonev10", 500, 5)
+phone1.broken_phones = 1
+phone2 = Item("jscPhonev20", 700, 5)
+phone2.broken_phones = 1
+
 
 
 
