@@ -9,7 +9,7 @@ def sum_mul(n, m):
     return 'INVALID'
 
 
-print(sum_mul(2, 9))
+print(sum_mul(3, 9))
 print(sum_mul(2, -9))
 
 

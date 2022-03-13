@@ -46,15 +46,15 @@ print('item1.pay_rate = ', item1.pay_rate)
 print('item2.pay_rate = ', item2.pay_rate)
 
 print('Class Item attributes = ', Item.__dict__)  # All attributes for Class level
-print('instance item1 attributes = ', item1.__dict__) # All attributes for instance level
+print('instance item1 attributes = ', item1.__dict__)  # All attributes for instance level
 
 
 item1.apply_discount()
-print(item1.price)
+print('item1.price + 20% discount = ', item1.price)
 
 item2.pay_rate = 0.7
 item2.apply_discount()
-print(item2.price)
+print('item2.price + 30% discount = ', item2.price)
 
 
 item1 = Item('Phone', 100, 1)

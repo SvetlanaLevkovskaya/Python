@@ -12,4 +12,4 @@ s = 1
 while a > 0:
     s *= a % 10
     a = a // 10
-print(s)
+    print(s)
