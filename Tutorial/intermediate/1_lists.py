@@ -86,12 +86,6 @@ b = [i*i for i in a]
 print('a = ', '                           ', a)
 print('a**2 = ', '                        ', b)
 
-
-
-
 print('*'*80)
 mylist.clear()
 print('mylist.clear() = ', '              ', mylist)
-
-
-

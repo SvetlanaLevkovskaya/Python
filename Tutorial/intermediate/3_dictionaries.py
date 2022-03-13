@@ -104,5 +104,3 @@ print('*'*80)
 mytyple = (8, 7)
 mydict = {mytyple: 15}
 print('mydict = {mytyple: 15}', '                        ', mydict)
-
-

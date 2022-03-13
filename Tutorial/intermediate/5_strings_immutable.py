@@ -195,4 +195,3 @@ var2 = 6
 print("var", "                                              ", var, var2)
 my_string = f'the variable is {var*2} and {var2}'
 print('f"the variable is {var*2} and {var2}"', '            ', my_string)
-

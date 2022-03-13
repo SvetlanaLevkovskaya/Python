@@ -189,4 +189,3 @@ print('*'*80)
 a = frozenset([1, 2, 3, 4])
 print('frozenset([1, 2, 3, 4])', '                       ', a)
 print('frozenset([1, 2, 3, 4])', '                       ', type(a))
-
