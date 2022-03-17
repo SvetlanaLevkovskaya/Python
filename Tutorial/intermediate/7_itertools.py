@@ -77,6 +77,7 @@ print('groupby(persons, key=lambda x: x["age"])', '   ', group_obj)
 for key, value in group_obj:
     print('key, list(value)', '                           ', key, list(value))
 
+
 print("*"*80)
 from itertools import count, cycle, repeat
 

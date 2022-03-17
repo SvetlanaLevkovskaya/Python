@@ -104,3 +104,7 @@ print('*'*80)
 mytyple = (8, 7)
 mydict = {mytyple: 15}
 print('mydict = {mytyple: 15}', '                        ', mydict)
+
+print('*'*80)
+bob2 = dict(zip(['name', 'job', 'age'], ['Bob', 'dev', '40']))
+print("dict(zip(['name', 'job', 'age'], ['Bob', 'dev', '40']))", '    ', bob2)
