@@ -103,8 +103,17 @@ print('value = my_dict[3]', '                           ', value)
 print('*'*80)
 mytyple = (8, 7)
 mydict = {mytyple: 15}
-print('mydict = {mytyple: 15}', '                        ', mydict)
+print('mydict = {mytyple: 15} ', '                        ', mydict)
 
 print('*'*80)
 bob2 = dict(zip(['name', 'job', 'age'], ['Bob', 'dev', '40']))
 print("dict(zip(['name', 'job', 'age'], ['Bob', 'dev', '40']))", '    ', bob2)
+
+print(1/5)
+print(1//5)
+print(1%5)
+print(0.1+0.1+0.1-0.3)
+print(round(0.1+0.1+0.1-0.3))
+print(set('spam'))
+print("s\tp\na\0m")
+print("Meaning " ,"of" ," life")

@@ -114,3 +114,11 @@ print('(ord(x) for x in "spaam")', '        ', (ord(x) for x in 'spaam'))
 print('[ord(x) for x in "spaam"]', '        ', [ord(x) for x in 'spaam'])
 print('{ord(x) for x in "spaam"}', '        ', {ord(x) for x in 'spaam'})
 print('{x: ord(x) for x in "spaam"}', '     ', {x: ord(x) for x in 'spaam'})
+
+print('*'*80)
+a = list(map(ord, 'spam'))
+print(a)
+l = [1, 2, 0]
+l.sort()
+print(l)
+print(sorted(l))

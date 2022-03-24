@@ -233,4 +233,29 @@ print('A\0B\0C')
 print(len('A\0B\0C'))
 
 print('*'*80)
-help(str)
+#help(str)
+
+B = '1101'
+I = 0
+for i in B:
+    I =I*2 + (ord(B[0]) - ord('o'))
+    B = B[:1]
+print(I)
+
+
+binary_num = 1101
+dec_num = 0
+m = 1
+length = len(str(binary_num))
+
+for k in range(length):
+    reminder = binary_num % 10
+    dec_num = dec_num + (reminder * m)
+    m = m * 2
+    binary_num = int(binary_num/10)
+
+print("Equivalent Decimal Value = ", dec_num)
+
+print(int('1101', 2))
+
+print(bin(13))
